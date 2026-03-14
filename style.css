@@ -297,6 +297,40 @@ gap:30px;
 margin-top:30px;
 }
 
+
+/*================ Footer==================*/
+
+.footer-custom{
+  background:linear-gradient(135deg,#43cea2,#185a9d);
+  padding:5px 0;
+  color:white;
+  animation: fadeIn 2s ease;
+  border-radius: 5px;
+}
+
+.footer-custom a{
+  color:#00ffcc;
+  text-decoration:none;
+}
+
+.footer-custom a:hover{
+  color:#00ffaa;
+}
+
+
+/* Fade animation */
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(20px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+
 /* ================= LOADING ANIMATION ================= */
 
 .loader{
